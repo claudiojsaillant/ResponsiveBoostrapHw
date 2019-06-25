@@ -93,3 +93,8 @@ input[type=text], select, textarea {
     display: flex;
     list-style: none;
   }
+
+  img {
+    width: 190px;
+    height: 200px;
+  }
