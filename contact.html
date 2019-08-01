@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e94cfefb1d.js"></script>
 </head>
 
 <body>
@@ -30,25 +31,29 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Contact</h1>
+      <h1 id="contactme">Contact me</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+      <div class="card text-center">
+        <div class="card-header">
+          Cell phone: 678-908-4685
+        </div>
+        <div class="card-header">
+          Email: claudiojsaillant@gmail.com
+        </div>
+        <div class="card-header">
+          <a href="images/CV_TEMPLATE-02.jpg" target="_blank">Resume</a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <a href="https://www.linkedin.com/in/claudio-saillant-063899174/" target="_blank"><i
+              class="fab fa-linkedin fa-7x"></i></a>
+          <a href="https://github.com/claudiojsaillant" target="_blank"><i class="fab fa-github fa-7x"></i></a>
+        </div>
+        <div class="card-body" id="card2">
+          <img src="images/card.gif" alt="cardgif">
+        </div>
+
+      </div>
 
     </section>
 
