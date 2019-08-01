@@ -4,16 +4,15 @@
 
 html,
 body {
-   margin:0;
-   padding:0;
-   height:100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.container  {
-    min-height:100%;
-    position:relative;
- }
-
+.container {
+  min-height: 100%;
+  position: relative;
+}
 
 h1 {
   padding: 15px;
@@ -135,21 +134,17 @@ h4 {
   text-align: center;
 }
 
-
-
-html{
+html {
   height: 100%;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-
-
-.container{
+.container {
   /* By setting flex-grow to 1, the main content will take up 
   all of the remaining space on the page. 
   The other elements have flex-grow: 0 and won't contest the free space. */
@@ -157,7 +152,7 @@ body{
   flex: 1 0 auto;
 }
 
-footer{
+footer {
   /* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
   /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
   flex: 0 0 auto;
@@ -165,4 +160,10 @@ footer{
 
 footer p {
   margin-bottom: 0;
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
 }
