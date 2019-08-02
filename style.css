@@ -166,4 +166,12 @@ footer p {
     width: 100%;
     text-align: center;
   }
+  .project {
+    padding-top: 20px;
+  }
 }
+
+#projectrow {
+  padding-bottom: 10px;
+}
+
