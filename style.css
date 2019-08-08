@@ -175,3 +175,9 @@ footer p {
   padding-bottom: 10px;
 }
 
+.card-body a:focus {
+  text-decoration: none;
+}
+
+
+
